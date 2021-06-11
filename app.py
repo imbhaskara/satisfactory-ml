@@ -19,7 +19,6 @@ from sklearn.model_selection import RandomizedSearchCV, GridSearchCV
 from jcopml.plot import plot_classification_report, plot_confusion_matrix, plot_roc_curve, plot_pr_curve
 from sklearn.metrics import accuracy_score, precision_score, recall_score, f1_score, confusion_matrix
 from sklearn.metrics import roc_curve, auc
-import pickle
 
 def satisfaction_airlines(file_name):
     data = pd.read_csv(file_name)
